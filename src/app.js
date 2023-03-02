@@ -1,12 +1,12 @@
 // app.js
 
-const express = require('express');
+import express from 'express';
+import bodyParser from 'body-parser';
+import routes from './routes/index.js';
+
 const app = express();
-const bodyParser = require('body-parser');
-const routes = require('./routes');
 
 app.use(bodyParser.json());
 app.use('/api', routes);
 
-module.exports = app;
-
+export default app;

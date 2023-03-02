@@ -1,10 +1,10 @@
 // routes/index.js
 
-const express = require('express');
+import express from 'express';
+import helloRoutes from './helloRoutes.js';
+
 const router = express.Router();
-const helloRoutes = require('./helloRoutes');
 
 router.use('/hello', helloRoutes);
 
-module.exports = router;
-
+export default router;

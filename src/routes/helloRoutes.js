@@ -1,11 +1,11 @@
-// routes/userRoutes.js
+// routes/helloRoutes.js
 
-const express = require('express');
+import express from 'express';
+import { getHello, createHello } from '../controllers/helloController.js';
+
 const helloRoutes = express.Router();
-const helloController = require('../controllers/helloController');
 
-helloRoutes.get('/', helloController.getHello);
-helloRoutes.post('/', helloController.createHello);
+helloRoutes.get('/', getHello);
+helloRoutes.post('/', createHello);
 
-module.exports = helloRoutes;
-
+export default helloRoutes;

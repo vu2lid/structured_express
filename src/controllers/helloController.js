@@ -2,10 +2,10 @@
 
 //const Hello = require('../models/helloModel');
 
-exports.getHello = async (req, res) => {
+export const getHello = async (req, res) => {
   res.json('Hello there !');
 };
 
-exports.createHello = async (req, res) => {
+export const createHello = async (req, res) => {
   res.json('Created hello !');
 };
