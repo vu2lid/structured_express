@@ -1,0 +1,25 @@
+{
+  "name": "structured_express",
+  "version": "1.0.0",
+  "description": "structured express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vu2lid/structured_express.git"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "vu2lid",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vu2lid/structured_express/issues"
+  },
+  "homepage": "https://github.com/vu2lid/structured_express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
