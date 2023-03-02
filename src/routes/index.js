@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const userRoutes = require('./helloRoutes');
+const helloRoutes = require('./helloRoutes');
 
 router.use('/hello', helloRoutes);
 
